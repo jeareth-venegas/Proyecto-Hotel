@@ -1,7 +1,7 @@
 {
   "name": "proyecto-hotel",
   "version": "2.0.0",
-  "description": "CETAV Javascript 2 Project Template",
+  "description": "CETAV Proyecto Hotel",
   "scripts": {
     "sass": "node-sass -w sass -o public/css",
     "sass-build": "node-sass sass -o public/css --output-style compressed",
