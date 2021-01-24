@@ -4,7 +4,7 @@
   "description": "CETAV Proyecto Hotel",
   "scripts": {
     "sass": "node-sass -w sass -o public/css",
-    "sass-build": "node-sass sass -o public/css --output-style compressed",
+    "sass-build": "node-sass sass -o css --output-style compressed",
     "dev-server": "live-server --watch=\"index.html,sass,js\"",
     "eslint": "eslint js",
     "dev": "npm run sass-build && concurrently \"npm run sass\" \"npm run dev-server\" \"esw -w js\""
