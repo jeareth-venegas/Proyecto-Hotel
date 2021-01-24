@@ -1,5 +1,13 @@
-$heading-color: #00f;
+//Settings
 
-h1 {
-  color: $heading-color;
-}
+@import 'config/mixins' ;
+
+@import 'config/settings' ;
+
+//Components
+
+@import 'components/buttons' ;
+
+//Normalize
+
+@import 'library/normalize' ;
