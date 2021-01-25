@@ -10,22 +10,20 @@
 // Lista del header
 .list-nav{
 
-	list-style: none;
+  list-style: none;
 
+  a {
+    color: $white;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
     li {
         float: left;
     }
-
     li + li {
         padding-left: 136px ;
-    }
-
-    a {
-        font-size: 25px;
-        font-weight: bold;
-        color: $white;
-        text-decoration: none;
-        text-transform: uppercase;
     }
 }
 

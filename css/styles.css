@@ -1,3 +1,18 @@
+.clearfix::after {
+  clear: both;
+  content: "";
+  display: table; }
+
+html {
+  margin: 0;
+  padding: 0; }
+
+ul {
+  height: 0;
+  margin: 0;
+  padding: 0;
+  width: 0; }
+
 .menu-title {
   color: #E5E5E5;
   float: left;
@@ -6,16 +21,16 @@
 
 .list-nav {
   list-style: none; }
+  .list-nav a {
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase; }
   .list-nav li {
     float: left; }
   .list-nav li + li {
     padding-left: 136px; }
-  .list-nav a {
-    font-size: 25px;
-    font-weight: bold;
-    color: #FFFFFF;
-    text-decoration: none;
-    text-transform: uppercase; }
 
 .header {
   background-color: #14213D; }
