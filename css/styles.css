@@ -13,27 +13,46 @@ ul {
   padding: 0;
   width: 0; }
 
+.menu-list {
+  list-style: none; }
+  .menu-list a {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-decoration: none; }
+  .menu-list li {
+    float: left; }
+  .menu-list li + li {
+    padding-left: 136px;
+    float: left; }
+
+.main-menu {
+  background-color: #14213D; }
+
 .menu-title {
   color: #E5E5E5;
   float: left;
   padding-left: 193px;
   padding-top: 22px; }
 
-.list-nav {
-  list-style: none; }
-  .list-nav a {
-    color: #FFFFFF;
-    font-size: 25px;
-    font-weight: bold;
-    text-decoration: none;
-    text-transform: uppercase; }
-  .list-nav li {
-    float: left; }
-  .list-nav li + li {
-    padding-left: 136px; }
-
-.main-menu {
+.footer {
+  height: 235px;
   background-color: #14213D; }
+
+.desti-foo {
+  font-family: "Libre Baskerville", serif;
+  font-size: 16px;
+  color: #FFFFFF; }
+
+.title-foo {
+  font-family: "Libre Baskerville", serif;
+  font-weight: 36px;
+  color: #FFFFFF; }
+
+.foo {
+  float: left; }
+
+.nav {
+  float: right; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document

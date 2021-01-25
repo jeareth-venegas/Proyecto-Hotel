@@ -1,34 +1,33 @@
 
-  // Logo del header
-  .menu-title {
+// Lista del header
+.menu-list {
 
-    color: #E5E5E5;
-    float: left;
-    padding-left: 193px;
-    padding-top: 22px;
-  }
+  list-style: none;
 
-  // Lista del header
-  .list-nav{
-
-    list-style: none;
-
-    a {
-      color: $white;
-      font-size: 25px;
-      font-weight: bold;
-      text-decoration: none;
-      text-transform: uppercase;
-  }
-      li {
-          float: left;
-      }
-      li + li {
-          padding-left: 136px ;
-      }
-  }
+  a {
+    color: $white;
+    font-size: 25px;
+    text-decoration: none;
+}
+    li {
+        float: left;
+    }
+    li + li {
+        padding-left: 136px ;
+        float: left;
+    }
+}
 
   // Background del header
   .main-menu {
     background-color: $dark-blue;
   }
+
+// Logo del header
+.menu-title {
+
+  color: #E5E5E5;
+  float: left;
+  padding-left: 193px;
+  padding-top: 22px;
+}
