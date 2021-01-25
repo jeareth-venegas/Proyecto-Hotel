@@ -368,3 +368,22 @@ template {
  */
 [hidden] {
   display: none; }
+
+body {
+  background-color: #000000; }
+
+.desti-title-content {
+  height: 208px;
+  margin: 0 auto;
+  margin-bottom: 130px;
+  width: 1519px; }
+
+.desti-title-content h2 {
+  color: #FFFFFF;
+  font-family: "Libre Baskerville", serif;
+  font-size: 64px; }
+
+.desti-title-content p {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px; }
