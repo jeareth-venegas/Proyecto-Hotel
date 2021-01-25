@@ -1,0 +1,16 @@
+//Estilo global de los botones
+@mixin button($color, $hover) {
+
+  background-color: $color ;
+  border-radius: 44px ;
+  border-style: none ;
+  font-family: $monserrat;
+  font-size: 25px ;
+  font-weight: $bold ;
+  padding: 12px 19px ;
+
+  &:hover{
+    
+    background-color: $hover ;
+  }
+}
