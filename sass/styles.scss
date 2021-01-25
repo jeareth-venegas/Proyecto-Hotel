@@ -1,19 +1,18 @@
 //Settings
 
 @import 'config/mixins' ;
-
 @import 'config/settings' ;
-
 @import 'config/global' ;
 
 //Components
 
 @import 'components/buttons' ;
 @import 'components/header' ;
+@import 'components/footer' ;
 
 //Normalize
 
-@import 'library/normalize.scss' ;
+@import 'library/normalize' ;
 
 // I (James) started to add style changes to list.html. Please check if your file goes before or after this file!
 //List
