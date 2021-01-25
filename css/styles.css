@@ -1,3 +1,25 @@
+.menu-title {
+  color: #E5E5E5;
+  float: left;
+  padding-left: 193px;
+  padding-top: 22px; }
+
+.list-nav {
+  list-style: none; }
+  .list-nav li {
+    float: left; }
+  .list-nav li + li {
+    padding-left: 136px; }
+  .list-nav a {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase; }
+
+.header {
+  background-color: #14213D; }
+
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
    ========================================================================== */
