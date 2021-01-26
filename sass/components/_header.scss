@@ -3,6 +3,9 @@
 .menu-list {
 
   list-style: none;
+  float: right;
+  padding-right: 175px ;
+
 
   a {
     color: $white;
@@ -10,17 +13,18 @@
     text-decoration: none;
 }
     li {
-        float: left;
+        list-style: none;
+        float: right ;
     }
     li + li {
-        padding-left: 136px ;
-        float: left;
+        margin-left: 136px ;
     }
 }
 
   // Background del header
   .main-menu {
     background-color: $dark-blue;
+    height: 114px ;
   }
 
 // Logo del header
@@ -29,5 +33,4 @@
   color: #E5E5E5;
   float: left;
   padding-left: 193px;
-  padding-top: 22px;
 }
