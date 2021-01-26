@@ -39,7 +39,13 @@
 
   img {
     height: 364.66px ;
-    width: 451.41px ;
+    width: 450px ;
+  }
+  // Check (hover) and fix the space thing
+  &:hover {
+    border: 2px solid $yellow;
+    border-radius: 32px;
+    height: 364.66px ;
   }
   hr {
     color: $yellow;
