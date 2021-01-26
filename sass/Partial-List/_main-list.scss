@@ -1,10 +1,11 @@
 // M A I N  C O N T E N T  S T Y L E S
 
 .desti-title-content {
-  background-image: url("../../img/destiny.png") ;
+  background-image: url("../../img/destiny.jpg") ;
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 auto;
   height: 525px ;
-  width: 1920px ;
 
   h2 {
     color: $white ;
@@ -39,7 +40,13 @@
 
   img {
     height: 364.66px ;
-    width: 451.41px ;
+    width: 450px ;
+  }
+  // Check (hover) and fix the space thing
+  &:hover {
+    border: 2px solid $yellow;
+    border-radius: 32px;
+    height: 364.66px ;
   }
   hr {
     color: $yellow;
@@ -60,4 +67,3 @@
 .imgs-boxes + .imgs-boxes {
   margin-left: 81px ;
 }
-

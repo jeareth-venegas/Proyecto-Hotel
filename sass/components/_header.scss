@@ -1,36 +1,28 @@
+//estilos del header global
+.header{
 
-// Lista del header
-.menu-list {
-
-  list-style: none;
-  float: right;
-  padding-right: 175px ;
-
-
-  a {
-    color: $white;
-    font-size: 25px;
-    text-decoration: none;
+  background-color: $dark-blue ;
+  height: 111px ;
 }
-    li {
-        list-style: none;
-        float: right ;
-    }
-    li + li {
-        margin-left: 136px ;
-    }
+.header-list{
+  float: left ;
+  margin-left: 457px ;
+  margin-top: 42px ;
 }
+.header-list-nav{
 
-  // Background del header
-  .header {
-    background-color: $dark-blue;
-    height: 114px ;
+    a{
+      @include anchor(white, 25px, $yellow) ;
+    }
   }
-
-// Logo del header
-.menu-title {
-
-  color: #E5E5E5;
-  float: left;
-  padding-left: 193px;
+  li+li{
+    margin-left: 128px ;
+  }
 }
+.header-title{
+
+  float: left ;
+  margin-top: 18px ;
+  width: 277px ;
+}
+
