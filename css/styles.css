@@ -19,26 +19,26 @@ ul {
 
 .menu-list {
   list-style: none;
-  padding-left: 500px; }
+  float: right;
+  padding-right: 175px; }
   .menu-list a {
     color: #FFFFFF;
     font-size: 25px;
     text-decoration: none; }
   .menu-list li {
-    float: left;
     list-style: none; }
   .menu-list li + li {
     padding-left: 136px;
-    float: left; }
+    float: right; }
 
 .main-menu {
-  background-color: #14213D; }
+  background-color: #14213D;
+  height: 114px; }
 
 .menu-title {
   color: #E5E5E5;
   float: left;
-  padding-left: 193px;
-  padding-top: 22px; }
+  padding-left: 193px; }
 
 .footer {
   height: 235px;
