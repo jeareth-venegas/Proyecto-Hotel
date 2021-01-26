@@ -375,17 +375,56 @@ body {
   background-color: #000000; }
 
 .desti-title-content {
-  height: 208px;
+  background-image: url("../../img/destiny.png");
   margin: 0 auto;
-  margin-bottom: 130px;
-  width: 1519px; }
+  height: 525px;
+  width: 1920px; }
 
 .desti-title-content h2 {
   color: #FFFFFF;
   font-family: "Libre Baskerville", serif;
-  font-size: 64px; }
+  font-size: 64px;
+  font-weight: lighter;
+  padding-left: 201px;
+  padding-top: 171px; }
 
 .desti-title-content p {
   color: #FFFFFF;
   font-family: "Montserrat", sans-serif;
-  font-size: 25px; }
+  font-size: 25px;
+  padding-left: 201px;
+  padding-top: 42px;
+  width: 1520px; }
+
+.desti-imgs-list {
+  float: left;
+  margin-left: 201px;
+  margin-bottom: 189px;
+  width: 1520px; }
+
+.imgs-boxes {
+  float: left;
+  height: 411px;
+  width: 450px;
+  margin-bottom: 76px; }
+
+.imgs-boxes + .imgs-boxes {
+  margin-left: 81px; }
+
+.imgs-boxes img {
+  height: 364.66px;
+  width: 451.41px; }
+
+.imgs-boxes hr {
+  color: #FCA311;
+  margin-top: 35px;
+  float: left;
+  width: 73px; }
+
+.imgs-boxes p {
+  color: #FFFFFF;
+  font-family: "Montserrat", sans-serif;
+  font-weight: lighter;
+  float: left;
+  font-size: 24px;
+  margin-left: 8px; }
