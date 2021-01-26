@@ -1,0 +1,37 @@
+.footer {
+
+  height: 235px;
+  background-color: $dark-blue ;
+  color: $white ;
+}
+
+.desti-foo {
+
+  font-family: $baskerville ;
+  font-size: 16px ;
+  color: $white;
+}
+
+.title-foo {
+
+  font-family: $baskerville;
+  font-weight: 36px ;
+  color: $white ;
+}
+
+.foo {
+
+  float: left ;
+}
+
+.nav {
+
+  float: right ;
+  font-family: $monserrat ;
+  font-size: 25px ;
+  padding-right: 245px ;
+
+  li {
+    list-style: none;
+  }
+}
