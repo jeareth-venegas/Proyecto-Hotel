@@ -11,6 +11,9 @@ html {
   margin: 0;
   padding: 0; }
 
+li {
+  list-style: none; }
+
 ul {
   margin: 0;
   padding: 0; }
@@ -18,43 +21,54 @@ ul {
 .footer {
   height: 235px;
   background-color: #14213D; }
-  .footer a {
+
+.footer-about-us li {
+  margin-bottom: 30px; }
+  .footer-about-us li a {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    text-decoration: none; }
+    .footer-about-us li a:hover {
+      color: #FCA311;
+      text-decoration: underline; }
+
+.footer-princ-info h5 {
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-size: 36px;
+  margin: 0; }
+
+.footer-princ-info h6 {
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-size: 14px;
+  letter-spacing: 4px;
+  margin: 0; }
+
+.footer-princ-info p {
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px; }
+
+.footer-social li {
+  margin-bottom: 26px; }
+  .footer-social li a {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
     text-decoration: none;
-    color: #FFFFFF; }
-  .footer li {
-    list-style: none; }
+    margin-left: 10px; }
+    .footer-social li a:hover {
+      color: #FCA311;
+      text-decoration: underline; }
 
-.desti-foo {
-  font-family: "Libre Baskerville", serif;
-  font-size: 16px;
-  color: #FFFFFF; }
+.footer-wrapper div {
+  float: left;
+  margin-top: 39px; }
 
-.title-foo {
-  font-family: "Libre Baskerville", serif;
-  font-weight: 36px;
-  font-size: 25px;
-  color: #FFFFFF;
-  font-weight: lighter; }
-
-.foo {
-  float: left; }
-
-.about-us {
-  padding-left: 272px;
-  list-style: none;
-  text-decoration: none;
-  font-family: "Montserrat", sans-serif;
-  color: #FFFFFF; }
-
-.foo-nav-list {
-  float: right;
-  margin-right: 245px;
-  font-family: "Montserrat", sans-serif;
-  color: #FFFFFF; }
-  .foo-nav-list li {
-    list-style: none; }
-  .foo-nav-list li + li {
-    margin-top: 25px; }
+.footer-wrapper div + div {
+  margin-left: 368px; }
 
 .header {
   background-color: #14213D;
@@ -394,13 +408,12 @@ template {
   background-image: url("../../img/home.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 680px; }
+  height: 681px; }
 
 .hero-home-text {
-  color: #FFFFFF;
+  color: white;
   margin-bottom: 35px;
-  margin-left: 190px;
-  margin-top: 65px; }
+  margin-left: 190px; }
 
 .first-hero-home-title {
   font-family: "Montserrat", sans-serif;
@@ -429,6 +442,45 @@ template {
   font-weight: lighter;
   margin-top: 0;
   margin-bottom: 35px; }
+
+.button-hero-home {
+  background-color: #14213D;
+  border-radius: 44px;
+  border-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 12px 19px;
+  color: white;
+  margin-left: 190px; }
+  .button-hero-home:hover {
+    background-color: #2B457D; }
+
+.home-main-text {
+  color: white;
+  margin-top: 90px; }
+
+.home-main-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 60px;
+  margin-bottom: 40px; }
+
+.home-main-p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  margin-top: 0; }
+
+.home-main-cards {
+  margin: 0 auto; }
+
+.home-main-cards-link {
+  color: #FCA311;
+  font-family: "Montserrat", sans-serif;
+  font-size: 30px;
+  text-decoration: none; }
+  .home-main-cards-link:hover {
+    color: #C88416;
+    text-decoration: underline; }
 
 body {
   background-color: #000000; }

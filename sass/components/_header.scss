@@ -5,21 +5,25 @@
   height: 111px ;
 }
 .header-list{
+
   float: left ;
   margin-left: 457px ;
   margin-top: 42px ;
 }
-.header-list-nav {
+.header-list-nav{
 
-  li {
+  li{
 
     float: left ;
     list-style: none ;
+
     a{
+
       @include anchor(white, 25px, $yellow) ;
     }
   }
   li+li{
+
     margin-left: 128px ;
   }
 }
