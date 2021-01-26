@@ -1,19 +1,19 @@
 <!DOCTYPE html>
 <html lang="es">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Buscador de Destinos"/>
-  <meta name="Keywords" content="Jeparis, hoteles, destinos"/>
-  <meta name="author" content="Jeareth Venegas, James Solis, Fabian Barquero, Jeampaul Salazar"/>
-  <title>JEPARIS</title>
-  <link rel="stylesheet" href="css/styles.css">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.gstatic.com">
-  <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="icon" href="img/favicon.ico" type="image/gif" sizes="16x16">
-</head>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Buscador de Destinos"/>
+    <meta name="Keywords" content="Jeparis, hoteles, destinos"/>
+    <meta name="author" content="Jeareth Venegas, James Solis, Fabian Barquero, Jeampaul Salazar"/>
+    <title>JEPARIS</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="icon" href="img/favicon.ico" type="image/gif" sizes="16x16">
+  </head>
   <body>
     <!--Header-->
     <div class="header clearfix">
@@ -28,10 +28,10 @@
         <!--lista del headder-->
         <div class="header-list">
           <ul class="header-list-nav clearfix">
-            <li><a href="/index.html">Inicio</a></li>
-            <li><a href="/desti.html">Destinos</a></li>
-            <li><a href="/hotel.html">Hoteles</a></li>
-            <li><a href="#">Contáctanos</a></li>
+            <li><a target="_blank" href="/index.html">Inicio</a></li>
+            <li><a target="_blank" href="/desti.html">Destinos</a></li>
+            <li><a target="_blank" href="/hotel.html">Hoteles</a></li>
+            <li><a target="_blank" href="#">Contáctanos</a></li>
           </ul>
         </div>
 
@@ -52,7 +52,7 @@
         </div>
 
         <!--boton del hero del home-->
-        <button class="button-hero-home">Explorar</button>
+        <button class="button-hero-home" onclick="location.href='./desti.html'">Explorar</button>
 
       </div>
 
@@ -130,8 +130,8 @@
     </div>
 
     <!--home footer-->
-    <div class="footer">
-      <div class="wrapper">
+    <div class="footer clearfix">
+      <div class="wrapper footer-wrapper clearfix">
 
         <div class="footer-princ-info">
 
@@ -139,27 +139,27 @@
           <h5 class="footer-title">JEPARIS</h5>
 
           <p class="footer-info">
-            San José, Costa Rica
-            +506 8757 6146
-            jeparis_hoteles@gmail.com
+            San José, Costa Rica <br>
+            +506 8757 6146 <br>
+            jeparis_hoteles@gmail.com <br>
           </p>
 
         </div>
 
         <div class="footer-about-us">
           <ul class="footer-about-us-list">
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Contacto</a></li>
-            <li><a href="#">Términos y condiciones</a></li>
+            <li><a target="_blank" href="#">Sobre nosotros</a></li>
+            <li><a target="_blank" href="#">Contacto</a></li>
+            <li><a target="_blank" href="#">Términos y condiciones</a></li>
           </ul>
         </div>
 
         <div class="footer-social">
 
           <ul class="footer-social-list">
-            <li><a href="#"><img src="img/f.png" alt="Facebook"></a></li>
-            <li><a href="#"><img src="img/twt.png" alt="Twitter"></a></li>
-            <li><a href="#"><img src="img/ig.png" alt="Instagram"></a></li>
+            <li> <img src="img/f.png" alt="Facebook"> <a target="_blank" href="#">Facebook</a></li>
+            <li> <img src="img/twt.png" alt="Twitter"> <a target="_blank" href="#">Twitter</a></li>
+            <li> <img src="img/ig.png" alt="Instagram"> <a target="_blank" href="#">Instagram</a></li>
           </ul>
 
         </div>
