@@ -21,3 +21,10 @@
 
   color: $yellow ;
 }
+
+//estilo del contenedor del tab
+@mixin tab-box{
+
+  color: $dark-blue ;
+  padding: 147px ;
+}
