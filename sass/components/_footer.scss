@@ -3,6 +3,10 @@
   height: 235px;
   background-color: $dark-blue ;
   color: $white ;
+
+  li {
+    text-decoration: none;
+  }
 }
 
 .desti-foo {
