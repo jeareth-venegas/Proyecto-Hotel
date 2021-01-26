@@ -1,4 +1,3 @@
-
 .clearfix::after {
   clear: both;
   content: "";
@@ -391,7 +390,7 @@ body {
   background-color: #000000; }
 
 .desti-title-content {
-  background-image: url("../../img/destiny.png");
+  background-image: url("../../img/destiny.jpg");
   margin: 0 auto;
   height: 525px;
   width: 1920px; }
