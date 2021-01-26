@@ -17,29 +17,6 @@ ul {
   padding: 0;
   width: 0; }
 
-.menu-list {
-  list-style: none;
-  float: right;
-  padding-right: 175px; }
-  .menu-list a {
-    color: #FFFFFF;
-    font-size: 25px;
-    text-decoration: none; }
-  .menu-list li {
-    list-style: none;
-    float: right; }
-  .menu-list li + li {
-    margin-left: 136px; }
-
-.main-menu {
-  background-color: #14213D;
-  height: 114px; }
-
-.menu-title {
-  color: #E5E5E5;
-  float: left;
-  padding-left: 193px; }
-
 .footer {
   height: 235px;
   background-color: #14213D; }
@@ -80,6 +57,29 @@ ul {
     list-style: none; }
   .foo-nav-list li + li {
     margin-top: 25px; }
+
+.menu-list {
+  list-style: none;
+  float: right;
+  padding-right: 175px; }
+  .menu-list a {
+    color: #FFFFFF;
+    font-size: 25px;
+    text-decoration: none; }
+  .menu-list li {
+    list-style: none;
+    float: right; }
+  .menu-list li + li {
+    margin-left: 136px; }
+
+.main-menu {
+  background-color: #14213D;
+  height: 114px; }
+
+.menu-title {
+  color: #E5E5E5;
+  float: left;
+  padding-left: 193px; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
 /* Document
