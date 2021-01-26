@@ -42,6 +42,8 @@ ul {
   height: 235px;
   background-color: #14213D;
   color: #FFFFFF; }
+  .footer li {
+    text-decoration: none; }
 
 .desti-foo {
   font-family: "Libre Baskerville", serif;
