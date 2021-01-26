@@ -1,60 +1,58 @@
-.footer {
+.footer{
 
   height: 235px ;
-  background-color: $dark-blue ;
+  background-color: $dark-blue;
+}
+.footer-about-us{
 
-  a {
-    text-decoration: none ;
-    color: $white;
+  li{
+    margin-bottom: 30px;
+
+    a{
+
+      @include anchor(white, 25px, $yellow);
+    }
   }
+}
+.footer-princ-info{
 
-  li {
-        list-style: none;
+  h5{
+    color: white;
+    font-family: $baskerville;
+    font-size: 36px;
+    margin: 0;
+  }
+  h6{
+    color: white;
+    font-family: $baskerville;
+    font-size: 14px;
+    letter-spacing: 4px;
+    margin: 0;
+  }
+  p{
+    color: white;
+    font-family: $monserrat;
+    font-size: 25px;
   }
 }
+.footer-social{
 
-.desti-foo {
+  li{
+    margin-bottom: 26px;
 
-  font-family: $baskerville ;
-  font-size: 16px ;
-  color: $white ;
-}
-
-.title-foo {
-
-  font-family: $baskerville;
-  font-weight: 36px ;
-  font-size: 25px ;
-  color: $white ;
-  font-weight: lighter;
-}
-
-.foo {
-
-  float: left ;
-}
-
-.about-us {
-  padding-left: 272px ;
-  list-style: none ;
-  text-decoration: none ;
-  font-family: $monserrat ;
-  color: $white ;
-}
-
-.foo-nav-list {
-
-  float: right ;
-  margin-right: 245px ;
-  font-family: $monserrat ;
-  color: $white ;
-
-
-  li {
-    list-style: none;
+    a{
+      @include anchor(white, 25px, $yellow);
+      margin-left: 10px;
+    }
   }
+}
+.footer-wrapper{
 
-  li + li {
-    margin-top: 25px ;
+  div{
+    float: left;
+    margin-top: 39px;
+  }
+  div+div{
+    margin-left: 368px;
   }
 }
