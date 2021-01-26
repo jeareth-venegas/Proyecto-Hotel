@@ -422,7 +422,11 @@ body {
   margin-bottom: 76px; }
   .imgs-boxes img {
     height: 364.66px;
-    width: 451.41px; }
+    width: 450px; }
+  .imgs-boxes:hover {
+    border: 2px solid #FCA311;
+    border-radius: 32px;
+    height: 364.66px; }
   .imgs-boxes hr {
     color: #FCA311;
     margin-top: 35px;
