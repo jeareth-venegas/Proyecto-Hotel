@@ -5,24 +5,23 @@
   margin: 0 auto;
   height: 525px ;
   width: 1920px ;
-}
 
-.desti-title-content h2 {
-  color: $white ;
-  font-family: $baskerville ;
-  font-size: 64px ;
-  font-weight: lighter ;
-  padding-left: 201px ;
-  padding-top: 171px ;
-}
-
-.desti-title-content p {
-  color: $white ;
-  font-family: $monserrat ;
-  font-size: 25px ;
-  padding-left: 201px ;
-  padding-top: 42px ;
-  width: 1520px;
+  h2 {
+    color: $white ;
+    font-family: $baskerville ;
+    font-size: 64px ;
+    font-weight: lighter ;
+    padding-left: 201px ;
+    padding-top: 171px ;
+  }
+  p {
+    color: $white ;
+    font-family: $monserrat ;
+    font-size: 25px ;
+    padding-left: 201px ;
+    padding-top: 42px ;
+    width: 1520px;
+  }
 }
 
 .desti-imgs-list {
@@ -37,29 +36,28 @@
   height: 411px ;
   width: 450px ;
   margin-bottom: 76px;
+
+  img {
+    height: 364.66px ;
+    width: 451.41px ;
+  }
+  hr {
+    color: $yellow;
+    margin-top: 35px;
+    float: left;
+    width: 73px ;
+  }
+  p {
+    color: $white;
+    font-family: $monserrat;
+    font-weight: lighter;
+    float: left;
+    font-size: 24px;
+    margin-left: 8px;
+  }
 }
 
 .imgs-boxes + .imgs-boxes {
   margin-left: 81px ;
 }
 
-.imgs-boxes img {
-  height: 364.66px ;
-  width: 451.41px ;
-}
-
-.imgs-boxes hr {
-  color: $yellow;
-  margin-top: 35px;
-  float: left;
-  width: 73px ;
-}
-
-.imgs-boxes p {
-  color: $white;
-  font-family: $monserrat;
-  font-weight: lighter;
-  float: left;
-  font-size: 24px;
-  margin-left: 8px;
-}
