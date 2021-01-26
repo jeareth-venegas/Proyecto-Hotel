@@ -82,7 +82,7 @@ ul {
 
 .header-title {
   float: left;
-  margin-top: 14px;
+  margin-top: 18px;
   width: 277px; }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -395,6 +395,8 @@ body {
 
 .desti-title-content {
   background-image: url("../../img/destiny.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
   margin: 0 auto;
   height: 525px;
   width: 1920px; }
