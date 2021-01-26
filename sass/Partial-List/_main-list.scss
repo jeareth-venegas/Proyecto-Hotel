@@ -2,9 +2,9 @@
 
 .desti-title-content {
   background-image: url("../../img/destiny.jpg") ;
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+  margin: 0 auto ;
   height: 525px ;
 
   h2 {
@@ -12,14 +12,14 @@
     font-family: $baskerville ;
     font-size: 64px ;
     font-weight: lighter ;
-    padding-left: 201px ;
+    padding-left: 150px ;
     padding-top: 171px ;
   }
   p {
     color: $white ;
     font-family: $monserrat ;
     font-size: 25px ;
-    padding-left: 201px ;
+    padding-left: 150px ;
     padding-top: 42px ;
     width: 1520px;
   }
@@ -27,8 +27,8 @@
 
 .desti-imgs-list {
   float: left ;
-  margin-left: 201px ;
-  margin-bottom: 189px;
+  margin-left: 150px ;
+  margin-bottom: 76px ;
   width: 1520px ;
 }
 
@@ -36,31 +36,30 @@
   float: left ;
   height: 411px ;
   width: 450px ;
-  margin-bottom: 76px;
+
 
   img {
     height: 364.66px ;
     width: 450px ;
   }
-  // Check (hover) and fix the space thing
   &:hover {
     border: 2px solid $yellow;
     border-radius: 32px;
     height: 364.66px ;
   }
   hr {
-    color: $yellow;
-    margin-top: 35px;
-    float: left;
+    color: $yellow ;
+    margin-top: 35px ;
+    float: left ;
     width: 73px ;
   }
   p {
-    color: $white;
-    font-family: $monserrat;
-    font-weight: lighter;
-    float: left;
-    font-size: 24px;
-    margin-left: 8px;
+    color: $white ;
+    font-family: $monserrat ;
+    font-weight: lighter ;
+    float: left ;
+    font-size: 24px ;
+    margin-left: 8px ;
   }
 }
 
