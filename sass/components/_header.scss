@@ -3,6 +3,7 @@
 .menu-list {
 
   list-style: none;
+  padding-left: 500px ;
 
   a {
     color: $white;
@@ -11,6 +12,7 @@
 }
     li {
         float: left;
+        list-style: none;
     }
     li + li {
         padding-left: 136px ;
