@@ -14,10 +14,10 @@
 }
     li {
         list-style: none;
+        float: right ;
     }
     li + li {
-        padding-left: 136px ;
-        float: right;
+        margin-left: 136px ;
     }
 }
 
