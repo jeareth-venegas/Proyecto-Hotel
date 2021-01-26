@@ -9,8 +9,12 @@
   margin-left: 457px ;
   margin-top: 42px ;
 }
-.header-list-nav{
+.header-list-nav {
 
+  li {
+
+    float: left ;
+    list-style: none ;
     a{
       @include anchor(white, 25px, $yellow) ;
     }

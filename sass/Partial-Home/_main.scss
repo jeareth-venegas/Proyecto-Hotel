@@ -1,0 +1,57 @@
+// a, b, c, d, e, f, g, h, i, j, k, l, m,
+// n, ñ, o, p, q, r, s, t, u, v, w, x, y, z.
+
+// Hero del Home
+
+.hero-home {
+  background-image: url("../../img/home.png") ;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+  height: 680px ;
+}
+
+// Hero home text
+
+.hero-home-text{
+  color: $white ;
+  margin-bottom: 35px ;
+  margin-left: 190px ;
+  margin-top: 65px ;
+}
+
+.first-hero-home-title {
+  font-family: $monserrat ;
+  font-size: 50px ;
+  font-weight: lighter ;
+  margin-top: 0 ;
+  margin-bottom: 20px ;
+}
+
+.second-hero-home-title {
+  font-family: $baskerville ;
+  font-size: 60px ;
+  font-weight: lighter ;
+  margin-top: 0 ;
+  margin-bottom: 25px ;
+}
+
+.third-hero-home-title {
+  font-family: $baskerville ;
+  font-size: 110px ;
+  font-weight: lighter ;
+  margin-top: 0 ;
+  margin-bottom: 15px ;
+}
+
+.hero-home-p {
+  font-family: $monserrat ;
+  font-size: 25px ;
+  font-weight: lighter ;
+  margin-top: 0 ;
+  margin-bottom: 35px ;
+}
+
+.button-hero-home {
+  @include button($color, $hover) ;
+  margin-left: 190px ;
+}
