@@ -405,6 +405,19 @@ template {
 [hidden] {
   display: none; }
 
+.hotel-site-map {
+  font-family: "Libre Baskerville", serif;
+  padding-top: 34px; }
+  .hotel-site-map a {
+    color: #FCA311;
+    font-size: 26px;
+    text-decoration: none; }
+    .hotel-site-map a strong {
+      color: #14213D; }
+
+.hotel-room-hero {
+  background-image: url(""); }
+
 .hero-home {
   background-image: url("../../img/home.png");
   background-repeat: no-repeat;
@@ -660,6 +673,19 @@ template {
 
 .img-content-hidden {
   filter: blur(0px); }
+
+.hotel-site-map {
+  font-family: "Libre Baskerville", serif;
+  padding-top: 34px; }
+  .hotel-site-map a {
+    color: #FCA311;
+    font-size: 26px;
+    text-decoration: none; }
+    .hotel-site-map a strong {
+      color: #14213D; }
+
+.hotel-room-hero {
+  background-image: url(""); }
 
 .desti-title-content {
   background-image: url("../../img/destiny.jpg");
