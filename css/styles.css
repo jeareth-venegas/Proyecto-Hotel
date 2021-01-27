@@ -556,13 +556,15 @@ template {
   background-color: #14213D;
   height: 61px;
   font-family: "Montserrat", sans-serif;
-  font-size: 36px;
+  font-size: 26px;
   font-weight: 700;
   padding-top: 13px;
   text-decoration: none;
   padding: 6px 13px 6px 13px;
   margin: 0;
   height: 44px; }
+  .tabs-menu:hover {
+    color: #FCA311; }
 
 .link-list-item {
   font-weight: bold;
@@ -574,6 +576,8 @@ template {
   padding-bottom: 40px;
   padding-left: 203pxpx;
   float: left; }
+  .list-item img:hover {
+    border: solid 2px #FCA311; }
 
 .js-activo {
   background-color: #14123D;
