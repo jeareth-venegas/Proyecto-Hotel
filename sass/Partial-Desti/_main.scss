@@ -1,4 +1,75 @@
+.desti-hero {
+  background-image: url("../../img/xan-griffin-IM8AJKDavbk-unsplash-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 583px;
+}
+.desti-main-title {
 
-.desti-site-map{
+  color: white;
+  font-family: $baskerville;
+  font-size: 64px;
+}
+.desti-main-tabs-list{
+
+  li{
+
+    float: left;
+  }
+}
+.desti-site-map {
+
   @include site-map;
+  padding-top: 34px;
+}
+.list-item{
+  float: left;
+  margin-left: 193px;
+  margin-top: 70px;
+  text-align: center;
+}
+.no-margin-item{
+  margin-left: 0px;
+}
+.tab-content-1{
+  @include tab-box;
+  text-align: center;
+
+  a{
+    @include anchor($yellow, 25px, $yellow-hover);
+  }
+  h1{
+    font-size: 38px;
+    margin-bottom: 70px;
+    margin-top: 0;
+  }
+  p{
+    font-size: 24px;
+    margin-bottom: 100px;
+  }
+}
+.tab-content-2{
+  @include tab-box;
+
+  a{
+    @include anchor($yellow, 25px, $yellow-hover);
+  }
+  h1{
+    font-size: 38px;
+    text-align: center;
+  }
+  p{
+    font-size: 24px;
+    text-align: center;
+  }
+}
+.tabs-menu{
+  @include tab;
+  display: block;
+}
+.js-active {
+  @include tab-close;
+}
+.js-content-hidden {
+  display: none;
 }

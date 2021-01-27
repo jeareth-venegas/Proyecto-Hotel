@@ -523,8 +523,23 @@ template {
   .home-card-text-button:hover {
     background-color: #2B457D; }
 
+.desti-hero {
+  background-image: url("../../img/xan-griffin-IM8AJKDavbk-unsplash-min.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 583px; }
+
+.desti-main-title {
+  color: white;
+  font-family: "Libre Baskerville", serif;
+  font-size: 64px; }
+
+.desti-main-tabs-list li {
+  float: left; }
+
 .desti-site-map {
-  font-family: "Libre Baskerville", serif; }
+  font-family: "Libre Baskerville", serif;
+  padding-top: 34px; }
   .desti-site-map a {
     color: #FCA311;
     font-size: 26px;
@@ -532,67 +547,76 @@ template {
     .desti-site-map a strong {
       color: #14213D; }
 
-.tab-content {
-  background-color: #14213D;
-  font-family: "Montserrat", sans-serif;
-  padding: 85px 210px 68px 210px; }
-  .tab-content h1 {
-    color: #ffffff;
-    text-decoration: none; }
-  .tab-content h3 {
-    font-size: 36px;
-    color: #ffffff; }
-  .tab-content p {
-    color: #ffffff;
-    font-size: 24px;
-    font-weight: lighter; }
+.list-item {
+  float: left;
+  margin-left: 193px;
+  margin-top: 70px;
+  text-align: center; }
 
-.tabs-list {
-  display: flex; }
+.no-margin-item {
+  margin-left: 0px; }
+
+.tab-content-1 {
+  background-color: #14213D;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 147px;
+  text-align: center; }
+  .tab-content-1 a {
+    color: #FCA311;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    text-decoration: none; }
+    .tab-content-1 a:hover {
+      color: #C88416;
+      text-decoration: underline; }
+  .tab-content-1 h1 {
+    font-size: 38px;
+    margin-bottom: 70px;
+    margin-top: 0; }
+  .tab-content-1 p {
+    font-size: 24px;
+    margin-bottom: 100px; }
+
+.tab-content-2 {
+  background-color: #14213D;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+  padding: 147px; }
+  .tab-content-2 a {
+    color: #FCA311;
+    font-family: "Montserrat", sans-serif;
+    font-size: 25px;
+    text-decoration: none; }
+    .tab-content-2 a:hover {
+      color: #C88416;
+      text-decoration: underline; }
+  .tab-content-2 h1 {
+    font-size: 38px;
+    text-align: center; }
+  .tab-content-2 p {
+    font-size: 24px;
+    text-align: center; }
 
 .tabs-menu {
-  color: #ffffff;
-  display: block;
-  background-color: #14213D;
   height: 61px;
+  color: #14213D;
   font-family: "Montserrat", sans-serif;
-  font-size: 26px;
+  font-size: 36px;
   font-weight: 700;
   padding-top: 13px;
+  text-align: center;
+  width: 261px;
   text-decoration: none;
-  padding: 6px 13px 6px 13px;
-  margin: 0;
-  height: 44px; }
-  .tabs-menu:hover {
-    color: #FCA311; }
+  background-color: #FCA311;
+  display: block; }
 
-.link-list-item {
-  font-weight: bold;
-  color: #FCA311;
-  font-size: 25px; }
+.js-active {
+  color: white;
+  background-color: #14213D; }
 
-.list-item {
-  width: 295px;
-  padding-bottom: 40px;
-  padding-left: 203pxpx;
-  float: left; }
-  .list-item img:hover {
-    border: solid 2px #FCA311; }
-
-.js-activo {
-  background-color: #14123D;
-  color: #ffffff; }
-
-.js-contenido-oculto {
+.js-content-hidden {
   display: none; }
-
-.hotel-site-map {
-  margin: 28px 0 77px 0; }
-  .hotel-site-map a {
-    text-decoration: none;
-    font-family: "Montserrat", sans-serif;
-    color: #FCA311;
-    font-size: 18px; }
 
 .desti-title-content {
   background-image: url("../../img/destiny.jpg");
