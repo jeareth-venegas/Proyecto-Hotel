@@ -67,6 +67,7 @@
 .home-main-text {
   color: white ;
   margin-top: 90px ;
+  margin-bottom: 84px;
 }
 
 .home-main-title {
@@ -92,19 +93,15 @@
     @include anchor($yellow, 30px, $yellow-hover) ;
   }
   float: right ;
+  padding-right: 45px;
 }
 
-.home-cards {
-  margin: 0px ;
-  padding-top: 25px ;
-  width: 1420px ;
-}
-
-.home-card-1 {
-  height: 595px ;
-  margin-right: 0px ;
-  width: 315px ;
-
+.home-card {
+  margin-left: 55px;
+  margin-bottom: 128px;
+  padding-top: 84px ;
+  float: left;
+  width: 313px ;
 }
 
 .home-card-title {
@@ -128,18 +125,4 @@
   text-align: center;
 }
 
-.home-card-2 {
-  height: 595px ;
-  width: 315px ;
-}
-
-.home-card-3 {
-  height: 595px ;
-  width: 315px ;
-}
-
-.home-card-4 {
-  height: 595px ;
-  width: 315px ;
-}
 
