@@ -1,32 +1,32 @@
 //Settings
 
-@import 'config/mixins' ;
-@import 'config/settings' ;
-@import 'config/global' ;
+@import "config/mixins" ;
+@import "config/settings" ;
+@import "config/global" ;
 
 //Components
 
-@import 'components/buttons' ;
-@import 'components/footer' ;
-@import 'components/header' ;
-@import 'components/tabs' ;
+@import "components/buttons" ;
+@import "components/footer" ;
+@import "components/header" ;
+@import "components/tabs" ;
 
 
 //Normalize
 
-@import 'library/normalize' ;
+@import "library/normalize" ;
 
 // Home
 // (Jeareth) Comienzo a dar estilos del home.html
 
-@import 'Partial-Home/main' ;
+@import "Partial-Home/main" ;
 @import "Partial-Desti/main";
 
 // Hotel
 
-@import 'Partial-Hotel/main-tabs-hotel' ;
+@import "Partial-Hotel/main-tabs-hotel" ;
 
 // I (James) started to add style changes to list.html. Please check if your file goes before or after this file!
 //List
 
-@import 'Partial-List/main-list' ;
+@import "Partial-List/main-list" ;
