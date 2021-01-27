@@ -1,58 +1,57 @@
 .footer{
-
   height: 235px ;
-  background-color: $dark-blue;
+  background-color: $dark-blue ;
 }
 .footer-about-us{
 
   li{
-    margin-bottom: 30px;
+    margin-bottom: 30px ;
 
     a{
 
-      @include anchor(white, 25px, $yellow);
+      @include anchor(white, 25px, $yellow) ;
     }
   }
 }
 .footer-princ-info{
 
   h5{
-    color: white;
-    font-family: $baskerville;
-    font-size: 36px;
-    margin: 0;
+    color: white ;
+    font-family: $baskerville ;
+    font-size: 36px ;
+    margin: 0 ;
   }
   h6{
-    color: white;
-    font-family: $baskerville;
-    font-size: 14px;
-    letter-spacing: 4px;
-    margin: 0;
+    color: white ;
+    font-family: $baskerville ;
+    font-size: 14px ;
+    letter-spacing: 4px ;
+    margin: 0 ;
   }
   p{
-    color: white;
-    font-family: $monserrat;
-    font-size: 25px;
+    color: white ;
+    font-family: $monserrat ;
+    font-size: 25px ;
   }
 }
 .footer-social{
 
   li{
-    margin-bottom: 26px;
+    margin-bottom: 26px ;
 
     a{
-      @include anchor(white, 25px, $yellow);
-      margin-left: 10px;
+      @include anchor(white, 25px, $yellow) ;
+      margin-left: 10px ;
     }
   }
 }
 .footer-wrapper{
 
   div{
-    float: left;
-    margin-top: 39px;
+    float: left ;
+    margin-top: 39px ;
   }
   div+div{
-    margin-left: 368px;
+    margin-left: 368px ;
   }
 }
