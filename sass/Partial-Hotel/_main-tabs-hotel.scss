@@ -1,0 +1,68 @@
+.tab-content {
+
+  background-color: $dark-blue ;
+  font-family: $monserrat ;
+  padding: 85px 210px 68px 210px ;
+
+  h1 {
+
+    color: #ffffff ;
+    text-decoration: none ;
+  }
+  h3 {
+
+    font-size: 36px ;
+    color: #ffffff ;
+  }
+  p {
+
+    color: #ffffff ;
+    font-size: 24px ;
+    font-weight: lighter ;
+  }
+}
+
+.tabs-list {
+
+  display: flex;
+}
+
+.tabs-menu {
+
+  color: #ffffff ;
+  display: block;
+  background-color: #14213D ;
+  height: 61px ;
+  font-family: $monserrat ;
+  font-size: 36px ;
+  font-weight: $bold ;
+  padding-top: 13px ;
+  text-decoration: none;
+  padding: 6px 13px 6px 13px;
+  margin: 0;
+  height: 44px ;
+}
+
+.link-list-item {
+
+  font-weight: bold ;
+  color: $yellow ;
+  font-size: 25px ;
+}
+
+.list-item {
+
+  width: 295px ;
+  padding-bottom: 40px ;
+  padding-left: 203pxpx ;
+  float: left;
+}
+
+.js-activo {
+  background-color:#14123D;
+  color: #ffffff;
+}
+
+.js-contenido-oculto {
+  display: none;
+}
