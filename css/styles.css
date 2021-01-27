@@ -491,14 +491,14 @@ template {
       text-decoration: underline; }
 
 .home-cards {
+  margin: 0px;
   padding-top: 25px;
-  width: 1420px;
-  margin: 0px; }
+  width: 1420px; }
 
 .home-card-1 {
   height: 595px;
-  width: 315px;
-  margin: 0px; }
+  margin-right: 0px;
+  width: 315px; }
 
 .home-card-title {
   color: #FFFFFF;
