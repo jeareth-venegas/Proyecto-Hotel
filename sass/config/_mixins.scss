@@ -12,3 +12,16 @@
     text-decoration: underline ;
   }
 }
+@mixin site-map{
+  font-family: $baskerville;
+
+  a{
+    color: $yellow;
+    font-size: 26px;
+    text-decoration: none;
+
+    strong{
+      color: $dark-blue;
+    }
+  }
+}
