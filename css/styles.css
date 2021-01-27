@@ -511,34 +511,6 @@ template {
   font-family: "Montserrat", sans-serif;
   font-size: 25px; }
 
-<<<<<<< HEAD
-.home-card-text-button {
-  background-color: #14213D;
-  border-radius: 44px;
-  border-style: none;
-  font-family: "Montserrat", sans-serif;
-  font-size: 25px;
-  font-weight: 700;
-  padding: 12px 19px;
-  color: white;
-  text-align: center; }
-  .home-card-text-button:hover {
-    background-color: #2B457D; }
-
-.home-card-2 {
-  height: 595px;
-  width: 315px; }
-
-.home-card-3 {
-  height: 595px;
-  width: 315px; }
-
-.home-card-4 {
-  height: 595px;
-  width: 315px; }
-
-=======
->>>>>>> 3e01870193431659f4c4ba52722292b2644c93bf
 .desti-title-content {
   background-image: url("../../img/destiny.jpg");
   background-repeat: no-repeat;
