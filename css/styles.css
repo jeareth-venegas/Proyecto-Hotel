@@ -409,7 +409,8 @@ template {
   background-image: url("../../img/home.png");
   background-repeat: no-repeat;
   background-size: cover;
-  height: 681px; }
+  height: 681px;
+  padding-top: 65px; }
 
 .hero-home-text {
   color: white;
@@ -420,29 +421,33 @@ template {
   font-family: "Montserrat", sans-serif;
   font-size: 50px;
   font-weight: lighter;
-  margin-top: 0;
-  margin-bottom: 20px; }
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 20px; }
 
 .second-hero-home-title {
   font-family: "Libre Baskerville", serif;
   font-size: 60px;
   font-weight: lighter;
-  margin-top: 0;
-  margin-bottom: 25px; }
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 25px; }
 
 .third-hero-home-title {
   font-family: "Libre Baskerville", serif;
   font-size: 110px;
   font-weight: lighter;
-  margin-top: 0;
-  margin-bottom: 15px; }
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 15px; }
 
 .hero-home-p {
   font-family: "Montserrat", sans-serif;
   font-size: 25px;
   font-weight: lighter;
-  margin-top: 0;
-  margin-bottom: 35px; }
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 35px; }
 
 .button-hero-home {
   background-color: #14213D;
@@ -475,13 +480,36 @@ template {
   margin: 0 auto; }
 
 .home-main-cards-link {
-  color: #FCA311;
+  float: right; }
+  .home-main-cards-link a {
+    color: #FCA311;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-decoration: none; }
+    .home-main-cards-link a:hover {
+      color: #C88416;
+      text-decoration: underline; }
+
+.home-cards {
+  margin: 0px;
+  padding-top: 25px;
+  width: 1420px; }
+
+.home-card-1 {
+  height: 595px;
+  margin-right: 0px;
+  width: 315px; }
+
+.home-card-title {
+  color: #FFFFFF;
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px; }
+
+.home-card-text p {
+  color: #FFFFFF;
+  line-height: 40px;
   font-family: "Montserrat", sans-serif;
-  font-size: 30px;
-  text-decoration: none; }
-  .home-main-cards-link:hover {
-    color: #C88416;
-    text-decoration: underline; }
+  font-size: 25px; }
 
 .desti-title-content {
   background-image: url("../../img/destiny.jpg");
