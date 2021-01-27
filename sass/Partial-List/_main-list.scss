@@ -13,16 +13,20 @@
     font-size: 64px ;
     font-weight: lighter ;
     padding-left: 150px ;
-    padding-top: 171px ;
   }
   p {
     color: $white ;
     font-family: $monserrat ;
     font-size: 25px ;
     padding-left: 150px ;
-    padding-top: 42px ;
     width: 1520px;
   }
+}
+
+.list-site-map {
+  @include site-map ;
+  padding-left: 150px ;
+  padding-top: 110px ;
 }
 
 .desti-imgs-list {
