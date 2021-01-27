@@ -9,7 +9,8 @@
 
 html {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  background-color: black; }
 
 li {
   list-style: none; }
@@ -404,8 +405,14 @@ template {
 [hidden] {
   display: none; }
 
-body {
-  background-color: #000000; }
+.desti-site-map {
+  font-family: "Libre Baskerville", serif; }
+  .desti-site-map a {
+    color: #FCA311;
+    font-size: 26px;
+    text-decoration: none; }
+    .desti-site-map a strong {
+      color: #14213D; }
 
 .desti-title-content {
   background-image: url("../../img/destiny.jpg");
@@ -414,14 +421,14 @@ body {
   margin: 0 auto;
   height: 525px; }
   .desti-title-content h2 {
-    color: #FFFFFF;
+    color: white;
     font-family: "Libre Baskerville", serif;
     font-size: 64px;
     font-weight: lighter;
     padding-left: 201px;
     padding-top: 171px; }
   .desti-title-content p {
-    color: #FFFFFF;
+    color: white;
     font-family: "Montserrat", sans-serif;
     font-size: 25px;
     padding-left: 201px;
@@ -452,7 +459,7 @@ body {
     float: left;
     width: 73px; }
   .imgs-boxes p {
-    color: #FFFFFF;
+    color: white;
     font-family: "Montserrat", sans-serif;
     font-weight: lighter;
     float: left;
