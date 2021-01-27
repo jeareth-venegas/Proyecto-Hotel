@@ -568,7 +568,7 @@ ul {
     color: #2B457D; }
 
 .desti-title-content {
-  background-image: url("../../img/destiny.jpg");
+  background-image: url("../.././img/destiny.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 525px;
@@ -630,7 +630,7 @@ ul {
   margin-left: 81px; }
 
 .desti-hero {
-  background-image: url("../../img/desti.jpg");
+  background-image: url("../.././img/desti.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 583px; }
@@ -820,7 +820,7 @@ ul {
       text-decoration: underline; }
 
 .hotel-room-hero {
-  background-image: url("/img/danilo-capece-0ma-sCTY5Ig-unsplash-min.jpg");
+  background-image: url("../.././img/hotel.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   height: 583px; }
