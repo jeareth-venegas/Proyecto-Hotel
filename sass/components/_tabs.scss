@@ -2,29 +2,32 @@
 @mixin tab {
 
   height: 61px ;
+  color: $dark-blue;
   font-family: $monserrat ;
   font-size: 36px ;
   font-weight: $bold ;
   padding-top: 13px ;
   text-align: center ;
-  width: 262px ;
+  width: 261px ;
+  text-decoration: none;
+  background-color: $yellow ;
+
 }
 
 //estilo del tab en su estado abierto
-@mixin tab-open {
-
-  color: $dark-blue ;
-}
 
 //estilo del tab en su estado cerrado
 @mixin tab-close {
+  color: white;
+  background-color: $dark-blue ;
 
-  color: $yellow ;
 }
 
 //estilo del contenedor del tab
 @mixin tab-box{
 
-  color: $dark-blue ;
-  padding: 147px ;
+  background-color: $dark-blue ;
+  color: white;
+  font-family: $monserrat;
+  padding: 147px;
 }
