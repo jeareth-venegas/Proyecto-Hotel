@@ -1,11 +1,11 @@
+/* eslint-disable linebreak-style */
 /* eslint-disable no-shadow */
-const enlaces = document.querySelectorAll('.tabs-menu');
 
+const enlaces = document.querySelectorAll('.tabs-menu');
 const contenido = document.querySelectorAll('.tab-content');
 
 // Variables que obtinenen los enlaces de miniaturas y el div contenedor con la imagen en grande
 const links = document.querySelectorAll('.miniature');
-
 const bigImage = document.getElementById('bigImage');
 
 for (let i = 0; i < contenido.length; i++) {
@@ -13,7 +13,6 @@ for (let i = 0; i < contenido.length; i++) {
 }
 
 contenido[0].classList.remove('js-content-hidden');
-
 enlaces[0].classList.add('js-active');
 
 for (let i = 0; i < enlaces.length; i++) {

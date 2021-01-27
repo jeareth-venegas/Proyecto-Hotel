@@ -107,7 +107,7 @@
 }
 
 .home-card {
-  
+
   float: left;
   margin-left: 55px ;
   margin-bottom: 128px ;
@@ -147,8 +147,9 @@
 
 .tab-4-text {
 
-  font-family: $monserrat ;
   color: #ffffff ;
+  font-family: $monserrat ;
+  float: left ;
   margin-bottom: 30px ;
 
   h1 {
@@ -179,7 +180,7 @@
 
 .tab-form-query {
 
-
+  float: left ;
 
   .box {
 
