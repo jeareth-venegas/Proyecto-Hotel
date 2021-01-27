@@ -22,6 +22,11 @@
   }
 }
 
+.tabs-list {
+
+  display: flex;
+}
+
 .tabs-menu {
 
   color: #ffffff ;
@@ -32,7 +37,10 @@
   font-size: 36px ;
   font-weight: $bold ;
   padding-top: 13px ;
-  width: 262px ;
+  text-decoration: none;
+  padding: 6px 13px 6px 13px;
+  margin: 0;
+  height: 44px ;
 }
 
 .link-list-item {
@@ -43,8 +51,18 @@
 }
 
 .list-item {
+
   width: 295px ;
   padding-bottom: 40px ;
-  padding-left: 160px ;
+  padding-left: 203pxpx ;
   float: left;
+}
+
+.js-activo {
+  background-color:#14123D;
+  color: #ffffff;
+}
+
+.js-contenido-oculto {
+  display: none;
 }

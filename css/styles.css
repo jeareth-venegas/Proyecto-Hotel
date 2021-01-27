@@ -405,6 +405,133 @@ template {
 [hidden] {
   display: none; }
 
+.hero-home {
+  background-image: url("../../img/home.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 681px;
+  padding-top: 65px; }
+
+.hero-home-text {
+  color: white;
+  margin-bottom: 35px;
+  margin-left: 190px; }
+
+.first-hero-home-title {
+  font-family: "Montserrat", sans-serif;
+  font-size: 50px;
+  font-weight: lighter;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 20px; }
+
+.second-hero-home-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 60px;
+  font-weight: lighter;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 25px; }
+
+.third-hero-home-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 110px;
+  font-weight: lighter;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 15px; }
+
+.hero-home-p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: lighter;
+  margin: 0;
+  padding-top: 0;
+  padding-bottom: 35px; }
+
+.button-hero-home {
+  background-color: #14213D;
+  border-radius: 44px;
+  border-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 12px 19px;
+  color: white;
+  margin-left: 190px; }
+  .button-hero-home:hover {
+    background-color: #2B457D; }
+
+.home-main-text {
+  color: white;
+  margin-top: 90px;
+  margin-bottom: 84px; }
+
+.home-main-title {
+  font-family: "Libre Baskerville", serif;
+  font-size: 60px;
+  margin-bottom: 40px; }
+
+.home-main-p {
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  margin-top: 0; }
+
+.home-main-cards {
+  margin: 0 auto; }
+
+.home-main-cards-link {
+  float: right;
+  padding-right: 45px; }
+  .home-main-cards-link a {
+    color: #FCA311;
+    font-family: "Montserrat", sans-serif;
+    font-size: 30px;
+    text-decoration: none; }
+    .home-main-cards-link a:hover {
+      color: #C88416;
+      text-decoration: underline; }
+
+.home-card {
+  margin-left: 55px;
+  margin-bottom: 128px;
+  padding-top: 84px;
+  float: left;
+  width: 313px; }
+
+.home-card-title {
+  color: #FFFFFF;
+  font-family: "Libre Baskerville", serif;
+  font-size: 20px; }
+
+.home-card-text p {
+  color: #FFFFFF;
+  line-height: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px; }
+
+.home-card-text-button {
+  background-color: #14213D;
+  border-radius: 44px;
+  border-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 12px 19px;
+  color: white;
+  text-align: center; }
+  .home-card-text-button:hover {
+    background-color: #2B457D; }
+
+.desti-site-map {
+  font-family: "Libre Baskerville", serif; }
+  .desti-site-map a {
+    color: #FCA311;
+    font-size: 26px;
+    text-decoration: none; }
+    .desti-site-map a strong {
+      color: #14213D; }
+
 .tab-content {
   background-color: #14213D;
   font-family: "Montserrat", sans-serif;
@@ -420,6 +547,9 @@ template {
     font-size: 24px;
     font-weight: lighter; }
 
+.tabs-list {
+  display: flex; }
+
 .tabs-menu {
   color: #ffffff;
   display: block;
@@ -429,7 +559,10 @@ template {
   font-size: 36px;
   font-weight: 700;
   padding-top: 13px;
-  width: 262px; }
+  text-decoration: none;
+  padding: 6px 13px 6px 13px;
+  margin: 0;
+  height: 44px; }
 
 .link-list-item {
   font-weight: bold;
@@ -439,8 +572,15 @@ template {
 .list-item {
   width: 295px;
   padding-bottom: 40px;
-  padding-left: 160px;
+  padding-left: 203pxpx;
   float: left; }
+
+.js-activo {
+  background-color: #14123D;
+  color: #ffffff; }
+
+.js-contenido-oculto {
+  display: none; }
 
 .desti-title-content {
   background-image: url("../../img/destiny.jpg");
