@@ -1,7 +1,7 @@
 /* eslint-disable no-shadow */
 
 const links = document.querySelectorAll('tabs-menu');
-const content = document.querySelectorAll('list-item');
+const content = document.querySelectorAll('tab-content');
 
 for (let i = 0; i < content.lenght; i++) {
   content[i].classList.add('js-contenido-oculto');

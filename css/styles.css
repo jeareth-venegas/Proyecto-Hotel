@@ -582,6 +582,14 @@ template {
 .js-contenido-oculto {
   display: none; }
 
+.hotel-site-map {
+  margin: 28px 0 77px 0; }
+  .hotel-site-map a {
+    text-decoration: none;
+    font-family: "Montserrat", sans-serif;
+    color: #FCA311;
+    font-size: 18px; }
+
 .desti-title-content {
   background-image: url("../../img/destiny.jpg");
   background-repeat: no-repeat;

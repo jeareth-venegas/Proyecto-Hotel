@@ -66,3 +66,15 @@
 .js-contenido-oculto {
   display: none;
 }
+
+.hotel-site-map {
+
+  margin: 28px 0 77px 0;
+
+  a {
+    text-decoration: none;
+    font-family: $monserrat ;
+    color: $yellow ;
+    font-size: 18px ;
+  }
+}
