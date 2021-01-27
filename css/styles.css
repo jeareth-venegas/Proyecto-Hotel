@@ -464,7 +464,8 @@ template {
 
 .home-main-text {
   color: white;
-  margin-top: 90px; }
+  margin-top: 90px;
+  margin-bottom: 84px; }
 
 .home-main-title {
   font-family: "Libre Baskerville", serif;
@@ -480,7 +481,8 @@ template {
   margin: 0 auto; }
 
 .home-main-cards-link {
-  float: right; }
+  float: right;
+  padding-right: 45px; }
   .home-main-cards-link a {
     color: #FCA311;
     font-family: "Montserrat", sans-serif;
@@ -490,15 +492,12 @@ template {
       color: #C88416;
       text-decoration: underline; }
 
-.home-cards {
-  margin: 0px;
-  padding-top: 25px;
-  width: 1420px; }
-
-.home-card-1 {
-  height: 595px;
-  margin-right: 0px;
-  width: 315px; }
+.home-card {
+  margin-left: 55px;
+  margin-bottom: 128px;
+  padding-top: 84px;
+  float: left;
+  width: 313px; }
 
 .home-card-title {
   color: #FFFFFF;
@@ -510,6 +509,19 @@ template {
   line-height: 40px;
   font-family: "Montserrat", sans-serif;
   font-size: 25px; }
+
+.home-card-text-button {
+  background-color: #14213D;
+  border-radius: 44px;
+  border-style: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 12px 19px;
+  color: white;
+  text-align: center; }
+  .home-card-text-button:hover {
+    background-color: #2B457D; }
 
 .desti-title-content {
   background-image: url("../../img/destiny.jpg");
