@@ -3,7 +3,52 @@
   @include site-map;
   padding-top: 34px;
 }
-.hotel-room-hero{
+.hotel-room-hero {
 
-  background-image: url("");
+  background-image: url("/img/hotel1.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 583px;
+}
+.tab-content {
+  @include tab-box;
+}
+.hotel-tabs-list {
+
+  li {
+
+    float: left;
+  }
+}
+.hotel-footer {
+  margin-top: 100px;
+}
+.hotel-list-item {
+  float:left;
+  margin-left: 220px;
+  margin-bottom: 40px;
+
+  p {
+    font-family: $monserrat;
+    font-size: 24px;
+  }
+  a {
+    @include anchor($yellow, 25px, $yellow-hover)
+  }
+}
+.hotel-tab-content {
+
+  h1 {
+    font-family: $monserrat;
+    font-size: 48px;
+  }
+  p {
+    font-family: $monserrat;
+    font-size: 24px;
+  }
+  h3{
+    font-family: $monserrat;
+    font-size: 36px;
+    margin-bottom: 50px ;
+  }
 }
