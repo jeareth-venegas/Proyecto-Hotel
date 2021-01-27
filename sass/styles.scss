@@ -1,33 +1,46 @@
-//Settings
-
-@import "config/mixins" ;
-@import "config/settings" ;
-@import "config/global" ;
-
-//Components
-
-@import "components/buttons" ;
-@import "components/footer" ;
-@import "components/header" ;
-@import "components/tabs" ;
-
-
-//Normalize
+// Normalize
 
 @import "library/normalize" ;
 
-// Home
-// (Jeareth) Comienzo a dar estilos del home.html
+// Helpers
 
-@import "Partial-Hotel/main-tabs-hotel" ;
-@import "Partial-Home/main" ;
-@import "Partial-Desti/main";
+@import "Partials/helpers" ;
 
-// Hotel
 
-@import "Partial-Hotel/main-tabs-hotel" ;
+// Settings
+@import "config/settings" ;
+@import "config/mixins" ;
 
-// I (James) started to add style changes to list.html. Please check if your file goes before or after this file!
-//List
+// Components
 
-@import "Partial-List/main-list" ;
+@import "components/buttons" ;
+@import "components/tabs" ;
+
+
+// Partials
+
+// Estilos globales del sitio web
+
+@import "Partials/global" ;
+
+// Header y Footer global
+@import "Partials/header" ;
+@import "Partials/footer" ;
+
+// Main-styles de todas las paginas
+
+// index
+@import "Partials/main-index";
+
+// Lista de destinos
+@import "Partials/main-list" ;
+
+// Destinos
+
+@import "Partials/main-desti" ;
+
+// Hoteles
+@import "Partials/main-hotel" ;
+
+
+
