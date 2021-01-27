@@ -580,6 +580,46 @@ template {
   .home-card-text-button:hover {
     background-color: #2B457D; }
 
+.tab-4-text {
+  font-family: "Montserrat", sans-serif;
+  color: #ffffff; }
+  .tab-4-text h1 {
+    font-size: 80px;
+    font-weight: bold;
+    margin: 0 auto; }
+  .tab-4-text h3 {
+    font-style: 64px;
+    font-family: "Libre Baskerville", serif; }
+  .tab-4-text p {
+    font-size: 24px;
+    font-weight: lighter; }
+
+.tab-form-query {
+  padding: 0; }
+  .tab-form-query .box {
+    margin-bottom: 66px;
+    margin-top: 50px;
+    padding: 0; }
+    .tab-form-query .box input {
+      height: 78px;
+      width: 570px; }
+    .tab-form-query .box textarea {
+      height: 352px;
+      width: 570px; }
+
+.form-button {
+  background-color: #FCA311;
+  border-radius: 44px;
+  border-style: none;
+  color: #14213D;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 700;
+  padding: 12px 19px; }
+  .form-button:hover {
+    background-color: #C88416;
+    color: #2B457D; }
+
 .desti-hero {
   background-image: url("../../img/xan-griffin-IM8AJKDavbk-unsplash-min.jpg");
   background-repeat: no-repeat;

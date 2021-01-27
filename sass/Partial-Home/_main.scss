@@ -1,6 +1,7 @@
 // Hero del Home
 
 .hero-home {
+
   background-image: url("../../img/home.png") ;
   background-repeat: no-repeat ;
   background-size: cover ;
@@ -11,22 +12,24 @@
 // Hero home text
 
 .hero-home-text{
+
   color: white ;
   margin-bottom: 35px ;
   margin-left: 190px ;
 }
 
 .first-hero-home-title {
+
   font-family: $monserrat ;
   font-size: 50px ;
   font-weight: lighter ;
   margin: 0 ;
   padding-top: 0 ;
   padding-bottom: 20px ;
-
 }
 
 .second-hero-home-title {
+
   font-family: $baskerville ;
   font-size: 60px ;
   font-weight: lighter ;
@@ -36,6 +39,7 @@
 }
 
 .third-hero-home-title {
+
   font-family: $baskerville ;
   font-size: 110px ;
   font-weight: lighter ;
@@ -45,6 +49,7 @@
 }
 
 .hero-home-p {
+
   font-family: $monserrat ;
   font-size: 25px ;
   font-weight: lighter ;
@@ -54,6 +59,7 @@
 }
 
 .button-hero-home {
+
   @include button($dark-blue, $dark-blue-hover) ;
   color: white ;
   margin-left: 190px ;
@@ -62,18 +68,21 @@
 // Home Main Title
 
 .home-main-text {
+
   color: white ;
   margin-top: 90px ;
   margin-bottom: 84px;
 }
 
 .home-main-title {
+
   font-family: $baskerville ;
   font-size: 60px ;
   margin-bottom: 40px ;
 }
 
 .home-main-p {
+
   font-family: $monserrat ;
   font-size: 25px ;
   margin-top: 0 ;
@@ -82,18 +91,23 @@
 // Home main cards
 
 .home-main-cards {
+
   margin: 0 auto ;
 }
 
 .home-main-cards-link {
-  a{
-    @include anchor($yellow, 30px, $yellow-hover) ;
-  }
+
   float: right ;
   padding-right: 45px;
+
+  a {
+
+    @include anchor($yellow, 30px, $yellow-hover) ;
+  }
 }
 
 .home-card {
+  
   float: left;
   margin-left: 55px ;
   margin-bottom: 128px ;
@@ -102,13 +116,16 @@
 }
 
 .home-card-title {
-  color: $white;
+
+  color: $white ;
   font-family: $baskerville ;
   font-size: 20px ;
 }
 
 .home-card-text {
+
   p{
+
     color: $white ;
     font-family: $monserrat ;
     font-size: 25px ;
@@ -117,9 +134,80 @@
 }
 
 .home-card-text-button {
+
   @include button($dark-blue, $dark-blue-hover) ;
   color: white ;
-  text-align: center;
+  text-align: center ;
 }
 
 
+// Estilos del formulario
+
+// Texto de informacion
+
+.tab-4-text {
+
+  font-family: $monserrat ;
+  color: #ffffff ;
+
+  h1 {
+
+    font-size: 80px ;
+    font-weight: bold ;
+    margin: 0 auto ;
+  }
+  h3 {
+
+    font-style: 64px ;
+    font-family: $baskerville ;
+  }
+  p {
+
+    font-size: 24px ;
+    font-weight: lighter ;
+  }
+}
+
+// Box del formulario y button del submit
+
+.tab-form-query {
+
+  padding: 0;
+
+  .box {
+
+    margin-bottom: 66px ;
+    margin-top: 50px ;
+    padding: 0 ;
+
+    input {
+
+      height: 78px ;
+      width: 570px ;
+    }
+
+    textarea {
+
+      height: 352px ;
+      width: 570px ;
+    }
+  }
+}
+
+.form-button {
+
+  background-color: $yellow ;
+  border-radius: 44px ;
+  border-style: none ;
+  color: $dark-blue ;
+  font-family: $monserrat;
+  font-size: 25px ;
+  font-weight: $bold ;
+  padding: 12px 19px ;
+
+  &:hover {
+
+    background-color: $yellow-hover ;
+    color: $dark-blue-hover ;
+  }
+}
