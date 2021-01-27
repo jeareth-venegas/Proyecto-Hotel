@@ -1,28 +1,46 @@
-.hotel-site-map {
+.box {
 
-  @include site-map ;
-  padding-top: 34px ;
+  margin-bottom: 66px ;
+  margin-top: 50px ;
 }
-.hotel-room-hero {
 
-  background-image: url("/img/hotel1.jpg") ;
-  background-repeat: no-repeat ;
-  background-size: cover ;
-  height: 583px;
+.contact {
+
+  font-family: $monserrat ;
+  height: 78px ;
+  width: 570px ;
 }
-.tab-content {
-  @include tab-box ;
-}
-.hotel-tabs-list {
 
-  li {
+.contact-title {
 
-    float: left ;
+  text-align: center ;
+
+  h1{
+
+    color: #ffffff ;
+    font-family: $monserrat ;
+    font-size: 80px ;
+    font-weight: bold ;
+    margin-bottom: 120px ;
   }
 }
+
+.form-button {
+
+  @include button ($yellow, $yellow-hover);
+  margin-left: 455px ;
+
+  &:hover {
+
+    background-color: $yellow-hover ;
+    color: $dark-blue-hover ;
+  }
+}
+
 .hotel-footer {
   margin-top: 100px ;
 }
+
 .hotel-list-item {
   float:left;
   margin-left: 220px ;
@@ -36,6 +54,29 @@
     @include anchor($yellow, 25px, $yellow-hover)
   }
 }
+
+.hotel-room-hero {
+
+  background-image: url("/img/hotel1.jpg") ;
+  background-repeat: no-repeat ;
+  background-size: cover ;
+  height: 583px;
+}
+
+.hotel-site-map {
+
+  @include site-map ;
+  padding-top: 34px ;
+}
+
+.hotel-tabs-list {
+
+  li {
+
+    float: left ;
+  }
+}
+
 .hotel-tab-content {
 
   h1 {
@@ -51,4 +92,38 @@
     font-size: 36px ;
     margin-bottom: 50px ;
   }
+}
+
+.tab-4-text {
+
+  color: #ffffff ;
+  float: left ;
+  font-family: $monserrat ;
+  margin-bottom: 30px ;
+
+  h3 {
+
+    font-family: $baskerville ;
+    font-size: 58px ;
+    margin-bottom: 66px;
+  }
+  p {
+
+    font-size: 24px ;
+    font-weight: lighter ;
+  }
+}
+
+.tab-4-sub {
+  margin-bottom: 50px ;
+}
+
+.tab-content {
+  @include tab-box ;
+}
+
+.tab-form-query {
+
+  float: left ;
+  margin-top: 200px ;
 }
