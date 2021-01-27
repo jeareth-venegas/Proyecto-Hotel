@@ -511,6 +511,7 @@ template {
   font-family: "Montserrat", sans-serif;
   font-size: 25px; }
 
+<<<<<<< HEAD
 .home-card-text-button {
   background-color: #14213D;
   border-radius: 44px;
@@ -536,6 +537,8 @@ template {
   height: 595px;
   width: 315px; }
 
+=======
+>>>>>>> 3e01870193431659f4c4ba52722292b2644c93bf
 .desti-title-content {
   background-image: url("../../img/destiny.jpg");
   background-repeat: no-repeat;
