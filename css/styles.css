@@ -582,30 +582,34 @@ template {
 
 .tab-4-text {
   font-family: "Montserrat", sans-serif;
-  color: #ffffff; }
+  color: #ffffff;
+  margin-bottom: 30px; }
   .tab-4-text h1 {
     font-size: 80px;
     font-weight: bold;
-    margin: 0 auto; }
+    margin-bottom: 120px;
+    text-align: center; }
   .tab-4-text h3 {
-    font-style: 64px;
-    font-family: "Libre Baskerville", serif; }
+    font-size: 64px;
+    font-family: "Libre Baskerville", serif;
+    margin-bottom: 66px; }
   .tab-4-text p {
     font-size: 24px;
     font-weight: lighter; }
 
-.tab-form-query {
+.tab-4-sub {
+  margin-bottom: 50px; }
+
+.tab-form-query .box {
+  margin-bottom: 66px;
+  margin-top: 50px;
   padding: 0; }
-  .tab-form-query .box {
-    margin-bottom: 66px;
-    margin-top: 50px;
-    padding: 0; }
-    .tab-form-query .box input {
-      height: 78px;
-      width: 570px; }
-    .tab-form-query .box textarea {
-      height: 352px;
-      width: 570px; }
+  .tab-form-query .box input {
+    height: 78px;
+    width: 570px; }
+  .tab-form-query .box textarea {
+    height: 352px;
+    width: 570px; }
 
 .form-button {
   background-color: #FCA311;

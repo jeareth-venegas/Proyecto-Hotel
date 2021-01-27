@@ -152,17 +152,20 @@
 
   font-family: $monserrat ;
   color: #ffffff ;
+  margin-bottom: 30px ;
 
   h1 {
 
     font-size: 80px ;
     font-weight: bold ;
-    margin: 0 auto ;
+    margin-bottom: 120px ;
+    text-align: center ;
   }
   h3 {
 
-    font-style: 64px ;
+    font-size: 64px ;
     font-family: $baskerville ;
+    margin-bottom: 66px;
   }
   p {
 
@@ -171,11 +174,15 @@
   }
 }
 
+.tab-4-sub {
+  margin-bottom: 50px ;
+}
+
 // Box del formulario y button del submit
 
 .tab-form-query {
 
-  padding: 0;
+
 
   .box {
 
